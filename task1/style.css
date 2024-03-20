@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    max-width: 700px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(84 187 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    max-width: 340px;
+    width: 100%;
+    height: 380px;
+    background-color: white;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper > h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(84 187 211);
+    padding-bottom: 30px;
+}
+
+.username-password {
+    background-color: #fff;
+    border-bottom: 1px solid #a8a8a8;
+    display: flex;
+    align-items: center;
+    color: #999999;
+}
+
+.checkmark{
+    background-color: #fff;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    flex: .1;
+    height: 15px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 13px;
+}
+
+.gradient-button {
+    background-image: linear-gradient(to right, #0071c8, #0d96ff); 
+    color: white;
+    border: none; 
+    height: 30px;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 25px;
+    text-align: center; 
+    cursor: pointer; 
+    font-size: 18px;
+    margin: 25px;
+}
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h2>Travel Reservation Form</h2>
+
+        <strong>* denotes mandatory</strong>
+        <br>
+        <br>
+        <p>Full name*</p>
+        <form> <input type="text" placeholder="FirstName LastName"></form>
+        <p>Email address*</p>
+        <form> <input type="email" placeholder="EMAIL_ADDRESS"></form>
+        <p>Select tour packages</p>
+        <select>
+            <option>Goa</option>
+            <option>All</option>
+            <option>None</option>
+        </select>
+        <p>Arrival time*</p>
+        <form><input type="date"></form>
+        <p>Number of persons*</p>
+        <form><input type="number" placeholder="UNKNOWN_PLACE"></form>
+        <p>What would you want to avail?*</p>
+        <span>Boarding</span><input type="checkbox">
+        <br>
+        <span>Fooding</span><input type="checkbox">
+        <br>
+        <span>Sight Seeing</span><input type="checkbox">
+        <br>
+        <p>Discount Coupan code</p>
+        <form><input type="text" placeholder="UNKNOWN_TYPE"></form>
+        <p>Terms and Conditions*</p>
+
+        <input id="agree" type="radio" name="selection"> <label for="agree">I agree</label> 
+        <input id="disagree" type="radio" name="selection"> <label for="disagree">I disagree</label>
+        <br>
+        <button>Complete reservation</button>
+    </main>
+</body>
+</html>
